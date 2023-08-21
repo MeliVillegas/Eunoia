@@ -1,0 +1,329 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f3f6;
+}
+
+header {
+    background-color: #a8c3d9;
+    color: #333;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+main {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
+}
+
+.section-container {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida {
+    text-align: center;
+}
+
+.bienvenida h1 {
+    font-weight: 400;
+}
+
+.bienvenida h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.bienvenida p {
+    margin: 0 90px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.cont .tarjeta {
+    margin: 50px;
+    text-align: center;
+    background-color: #a8c3d944;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+.tarjeta h2, .servicios h2, .afirmaciones h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.servicios {
+    text-align: center;
+}
+
+.cont-servicios .tarjeta {
+    margin: 20px 90px;
+    text-align: center;
+    background-color: #a8c3d944;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #a8c3d944;
+    color: #666;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    flex-basis: 100%;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/*Recursos*/
+
+.introduccion {
+    text-align: center;
+    margin: 0 90px;
+}
+
+.introduccion h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-card {
+    padding: 20px;
+    text-align: center;
+    background-color: #a8c3d944;
+    border-radius: 20px;
+}
+
+.afirmaciones {
+    margin: 70px;
+    text-align: center;
+}
+
+.cont-afirmaciones {
+    border: 1px solid #a8c3d944;
+    padding: 40px 0;
+    margin: 50px 0;
+}
+
+.cont-afirmaciones h2, .playlists h2, .books h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.playlists, .books, .about-me {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.cont-playlists, .cont-books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.playlist {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #a8c3d944;
+    margin: 0 10px;
+    width: 30%;
+}
+
+.spotify {
+    text-align: center;
+}
+
+.spotify iframe {
+    width: 91%;
+}
+
+.playlist p, .book p {
+    margin-bottom: 30px;
+}
+
+.playlist a, .books a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #a8c3d993;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.playlist a:hover, .books a:hover {
+    background-color:#a8c3d9;
+}
+
+.playlist h3, .books h3, .books h5{
+    font-weight: 300;
+}
+
+.cont-books{
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 1px solid #a8c3d993;
+    padding: 30px;
+    margin: 20px;
+    width: 30%;
+    height: 600px;
+}
+
+.book img{
+    width: 200px;
+    height: 300px;
+}
+
+/*About*/
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-about-me {
+    text-align: center;
+    border: 1px solid #a8c3d993;
+    border-radius: 20px;
+    width: 40%;
+    padding: 40px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.profile-details .info {
+    font-style: italic;
+}
+
+/*Galería*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+}
